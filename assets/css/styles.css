@@ -1,53 +1,66 @@
 body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: sans-serif;
-    background-color: #e5e8e8;
-    color: #4e545c;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: #e5e8e8;
+  color: #4e545c;
 }
 
 .caixa-com-botao {
-    display: flex;
-    margin: 1%;
-    align-items: center;
+  display: flex;
+  margin: 1%;
+  align-items: center;
 }
 
 .caixa-texto {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #nome {
-    padding: 2%;
-    margin: 2%;
-    border: 1px solid black;
-    border-radius: 2px;
+  padding: 2%;
+  margin: 2%;
+  border: 1px solid black;
+  border-radius: 2px;
 }
 
 #placa {
-    padding: 2%;
-    margin: 2%;
-    border: 1px solid black;
-    border-radius: 2px;
+  padding: 2%;
+  margin: 2%;
+  border: 1px solid black;
+  border-radius: 2px;
 }
 
 #cadastrar {
-    margin: 5%;
-    padding: 2%;
-    border: 1px solid black;
-    border-radius: 4px;
+  margin: 5%;
+  padding: 2%;
+  border: 1px solid black;
+  border-radius: 4px;
 }
 
-.tabela{
-    padding: 1%;
-    width: 50%;
+.tabela {
+  padding: 1%;
+  width: 50%;
 }
 
-.patio td {
-
+table {
+  border-collapse: collapse;
 }
 
+tr {
+  text-align: center;
+  border: 1px solid;
+}
 
+th {
+  height: 30px;
+  background-color: #4e545c;
+  color: white;
+}
+
+td {
+  height: 40px;
+}
